@@ -1,3 +1,5 @@
+# Program to display random colors on the LED display
+
 from sense_hat import SenseHat
 from time import sleep
 import random
