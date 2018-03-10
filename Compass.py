@@ -1,4 +1,6 @@
 # Program to make the Pi act as a compass and tell direction
+# The Pi's LED itself will display the direction, while your computer's terminal
+# will simultaneously display the number of degrees from NORTH
 
 from sense_hat import SenseHat
 sense = SenseHat()
@@ -22,6 +24,3 @@ while True:
     else:
         print("NORTH")
         sense.show_letter('N')
-
-
-
