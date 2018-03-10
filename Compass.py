@@ -1,5 +1,5 @@
-# Program to make the Pi act as a compass and tell direction
-# The Pi's LED itself will display the direction, while your computer's terminal
+# Program to make the Pi act as a compass and tell direction.
+# The Pi itself will display the direction, while your computer's terminal
 # will simultaneously display the number of degrees from NORTH
 
 from sense_hat import SenseHat
